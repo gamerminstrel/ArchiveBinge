@@ -1,0 +1,37 @@
+Brainstorm.txt
+
+
+
+========SCRAPS FOR LATER============
+
+
+######SCRAPS & REFERENCE CODE###########
+#BEAUTIFULSOUP EXAMPLE
+#html_page = urllib.request.urlopen("http://sssscomic.com/?id=archive")
+#print (html_page)
+#soup = BeautifulSoup(html_page, "html.parser")
+#for link in soup.findAll('a'):
+#    print (link.get('href'))
+
+#FNMATCH FILTER EXAMPLE
+#lst = ['this','is','just','a','test', 'thadcvrtkjds']
+#filtered = fnmatch.filter(lst, 'th*s')
+#print (filtered)
+
+#archive_page_contents = []
+#webcomic_pages = []
+#for line in archive_page.text.splitlines():
+#    archive_page_contents.append(line)
+#webcomic_pages = fnmatch.filter(archive_page_contents,"<a class*/comic/*")
+#for item in webcomic_pages:
+#    item.removeprefix("*href=")
+
+#print (webcomic_pages)
+#href="/comic/2">
+#href="comic.php?page=69">
+#href="comic.php?page=120">
+
+##This will write contents to text file.
+#with open("output.html", "w") as text_file:
+#    print(archive_page.text, file=text_file)
+#Step 3: find the pattern for the pages.

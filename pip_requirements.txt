@@ -1,0 +1,2 @@
+#This is a list of all python packages needed to run ArcBin2
+python -m pip install requests
